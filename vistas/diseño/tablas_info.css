@@ -1,0 +1,61 @@
+.formulario {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 5%;
+    margin-top: 60px; /* Espacio para el encabezado */
+}
+
+/* Estilos para los botones */
+input.submit {
+    margin: 20px; /* Espacio entre los botones */
+    padding: 10px 20px; /* Espacio dentro de los botones */
+    font-size: 20px;
+    border: none;
+    background-color: #182AF5; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+/* Estilos para las tablas */
+.table {
+    border-collapse: collapse;
+    width: 18%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table1 {
+    border-collapse: collapse;
+    width: 18%;
+}
+
+.table1 th, .table1 td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+}
+
+.table1 th {
+    background-color: #f2f2f2;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

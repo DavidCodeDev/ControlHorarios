@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Estilos para el encabezado */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 255, 255); /* Cambia los colores según tus preferencias */
+    color: #000000; /* Ajusta el color del texto para que sea legible en el fondo */
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed; /* Fijar el encabezado en la parte superior */
+    top: 0; /* Pegar el encabezado en la parte superior */
+    left: 0; /* Alinear el encabezado a la izquierda */
+    width: 100%; /* Ancho del encabezado */
+    height: 40px;
+    background-color: #42b9f5;
+    color: #000000; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    z-index: 999; /* Z-index para que esté por encima del contenido */
+    font-family: 'Roboto', sans-serif; /* Fuente */
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-size: 20px;
+}
+/* Estilos para el contenedor */
+.container {
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    justify-content: space-between; /* Distribuir los elementos de manera uniforme a lo largo del contenedor */
+    align-items: center; /* Alinear los elementos verticalmente */
+}
+
+/* Estilos para el título del encabezado */
+h1 {
+    font-size: 35px;
+    position: relative;
+    margin-left: -100px;
+
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none; /* Eliminar viñetas de lista */
+}
+
+nav ul li {
+    display: inline-block; /* Mostrar elementos en línea */
+    margin-right: 40px; /* Espaciado a la derecha */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Eliminar margen derecho del último elemento */
+}
+
+nav ul li a {
+    color: #000000; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+}
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+  div[name="botones"] {
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: -630px;
+    
+}
+
+button[name="boton_entrada"], [name="boton_salida"] {
+    margin: 20px; /* Espacio entre los botones */
+    padding: 10px 20px; /* Espacio dentro de los botones */
+    font-size: 20px;
+    border: none;
+    background-color: #182AF5; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+button[name="boton_entrada"],[name="boton_salida"]:hover {
+    background-color: #182AF5; /* Cambiar color de fondo al pasar el mouse */
+}
+
+button[name="boton_salida"], [name="boton_entrada"]:focus {
+    outline: none; /* Quitar el contorno al hacer clic */
+}
+
+#successMessage{
+    position: absolute;
+    font-size: 20px;
+    margin-left: -140px;
+    margin-top: 500px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+footer {
+    position: fixed; /* Fijar el footer en la parte inferior */
+    left: 0; /* Alinear el footer a la izquierda */
+    bottom: 0; /* Pegar el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    background-color: #000000; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno superior e inferior */
+    text-align: center; /* Alineación del texto */
+    z-index: 999; /* Z-index para que esté por encima del contenido */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+}

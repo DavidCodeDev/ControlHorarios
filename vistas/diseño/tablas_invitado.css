@@ -1,0 +1,47 @@
+
+
+.tables-container {
+    margin-top: 20px; /* Espacio entre el encabezado y las tablas */
+}
+
+/* Estilos para las tablas */
+.table1, .table2, .table3 {
+    border-collapse: collapse;
+    width: 18%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.table1 th, .table1 td, 
+.table2 th, .table2 td, 
+.table3 th, .table3 td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+}
+
+.table1 th, .table2 th, .table3 th {
+    background-color: #f2f2f2;
+}
+
+.table1 tr:nth-child(even), 
+.table2 tr:nth-child(even), 
+.table3 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table1-container,
+.table2-container {
+    margin-bottom: 10px; /* Espacio entre las tablas 1 y 2 */
+}
+
+.table3-container {
+    display: flex;
+    flex-direction: row; /* Alinea las tablas 2 y 3 horizontalmente */
+    margin-left: auto; /* Mueve la tabla 3 hacia la derecha */
+}
+
+/* Ajusta el ancho de la tabla 3 */
+.table3-container .table3 {
+    width: 50%; /* Ajusta el ancho según sea necesario */
+}
